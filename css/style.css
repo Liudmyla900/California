@@ -1,0 +1,128 @@
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "bootstrap.css";
+header .container {
+  margin-bottom: 28px;
+}
+header .navbar-brand img {
+  position: absolute;
+  height: 21px;
+  left: 0%;
+  right: 86.86%;
+  top: calc(50% - 10.5px + 0.5px);
+  border-radius: 0px;
+}
+header .nav-item .nav-link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #000000;
+}
+header .nav-item .dropdown-toggle:after {
+  width: 7px;
+  height: 7px;
+  border-top: 1.5px solid #070847;
+  border-right: 1.5px solid #070847;
+  border-left: 0;
+  transform: rotate(135deg);
+  margin-left: 4px;
+}
+header .icon a {
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.main_banner {
+  height: 100vh;
+}
+.main_banner img {
+  width: 100%;
+  border-radius: 32px;
+}
+.main_banner .banner_description {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.main_banner .row {
+  height: 80%;
+  padding-left: 56px;
+}
+.main_banner .row h1 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 70px;
+  color: #000000;
+}
+.main_banner .row p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.main_banner .row a {
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  padding: 14px 53px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.main_banner .owl-carousel .owl-nav .owl-prev {
+  position: absolute;
+  left: 19px;
+  top: 263px;
+}
+.main_banner .owl-carousel .owl-nav .owl-prev:after {
+  content: "\f053";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 30px;
+  display: inline-block;
+}
+.main_banner .owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  right: 19px;
+  top: 263px;
+}
+.main_banner .owl-carousel .owl-nav .owl-next:after {
+  content: "\f054";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 30px;
+  display: inline-block;
+}
+.main_banner .owl-carousel .owl-dots {
+  width: 100%;
+  text-align: center;
+}
+.main_banner .owl-carousel .owl-dots .owl-dot {
+  width: 194px;
+  height: 2px;
+  display: inline-block;
+  background: #000000;
+  border-radius: 0px;
+  position: absolute;
+  bottom: 34px;
+}
+
+.container {
+  max-width: 1294px;
+}
+
+/*# sourceMappingURL=style.css.map */

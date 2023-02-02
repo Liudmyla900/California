@@ -1,0 +1,143 @@
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "bootstrap.css";
+
+$main_font: 'Readex Pro', sans-serif;
+$font_inter: 'Inter', sans-serif;
+
+header{
+  .container{
+    margin-bottom: 28px;
+  }
+  .navbar-brand{
+    img{
+      position: absolute;
+      height: 21px;
+      left: 0%;
+      right: 86.86%;
+      top: calc(50% - 21px/2 + 0.5px);
+      border-radius: 0px;
+    }
+  }
+  .nav-item {
+    .nav-link {
+      font-family: $font_inter;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+      color: #000000;
+    }
+    .dropdown-toggle{
+      &:after{
+        width: 7px;
+        height: 7px;
+        border-top: 1.5px solid #070847;
+        border-right: 1.5px solid #070847;
+        border-left: 0;
+        transform: rotate(135deg);
+        margin-left: 4px;
+
+      }
+    }
+  }
+  .icon{
+    a{
+      margin-left: 13px;
+      margin-right: 13px;
+    }
+  }
+}
+.main_banner{
+  height: 100vh;
+  img{
+    width: 100%;
+    border-radius: 32px;
+  }
+  .banner_description{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  .row{
+    height: 80%;
+    padding-left: 56px;
+    h1{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 58px;
+      line-height: 70px;
+      color: #000000;
+    }
+    p{
+      font-family: $font_inter;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+    }
+    a{
+      text-decoration: none;
+      background-color: transparent;
+      border: 1px solid #000000;
+      border-radius: 200px;
+      padding: 14px 53px;
+      font-family: $font_inter;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: capitalize;
+      color: #000000;
+    }
+  }
+  .owl-carousel{
+    .owl-nav{
+      .owl-prev{
+        position: absolute;
+        left: 19px;
+        top: 263px;
+        &:after{
+          content: "\f053";
+          font-family: "Font Awesome 6 Free";
+          font-weight: 900;
+          font-size: 30px;
+          display: inline-block;
+        }
+      }
+      .owl-next{
+        position: absolute;
+        right: 19px;
+        top: 263px;
+        &:after{
+          content: "\f054";
+          font-family: "Font Awesome 6 Free";
+          font-weight: 900;
+          font-size: 30px;
+          display: inline-block;
+        }
+      }
+    }
+    .owl-dots{
+      width: 100%;
+      text-align: center;
+      .owl-dot{
+        width: 194px;
+        height: 2px;
+        display: inline-block;
+        background: #000000;
+        border-radius: 0px;
+        position: absolute;
+        bottom: 34px;
+      }
+    }
+  }
+}
+.container{
+  max-width: 1294px;
+}
