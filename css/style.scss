@@ -126,18 +126,27 @@ header{
     .owl-dots{
       width: 100%;
       text-align: center;
-      .owl-dot{
-        width: 194px;
-        height: 2px;
-        display: inline-block;
-        background: #000000;
-        border-radius: 0px;
-        position: absolute;
-        bottom: 34px;
+      position: absolute;
+      bottom: 34px;
+      .owl-dot {
+        span {
+          width: 194px;
+          height: 2px;
+          display: inline-block;
+          background: #000000;
+          border-radius: 0px;
+          margin-right: 17px;
+          margin-left: 17px;
+        }
+      }
+        .owl-dot.active{
+          span{
+            background: white;
+          }
+        }
       }
     }
   }
-}
 .container{
   max-width: 1294px;
 }

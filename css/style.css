@@ -110,15 +110,20 @@ header .icon a {
 .main_banner .owl-carousel .owl-dots {
   width: 100%;
   text-align: center;
+  position: absolute;
+  bottom: 34px;
 }
-.main_banner .owl-carousel .owl-dots .owl-dot {
+.main_banner .owl-carousel .owl-dots .owl-dot span {
   width: 194px;
   height: 2px;
   display: inline-block;
   background: #000000;
   border-radius: 0px;
-  position: absolute;
-  bottom: 34px;
+  margin-right: 17px;
+  margin-left: 17px;
+}
+.main_banner .owl-carousel .owl-dots .owl-dot.active span {
+  background: white;
 }
 
 .container {
